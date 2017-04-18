@@ -58,7 +58,7 @@ WAN_addr=''
 internal_wan_hostnames='wan wan-ip wan1-ip'
 # External WAN service. Do not include protocol. HTTPS will be tried first.
 # URL should return ONLY the IP address as a response
-external_WAN_query='https://ifconfig.io/ip'
+external_WAN_query='https://ipinfo.io/ip'
 # Where to store the address from our last update. /tmp/ is fine.
 storage_dir='/tmp/'
 # Force update if address hasn't changed?
